@@ -1,0 +1,127 @@
+@font-face {
+	font-family: Fraunces;
+	src: url('./Fonts/Fraunces/static/Fraunces_120pt_Soft/Fraunces_120pt_Soft-ExtraBold.ttf');
+}
+
+@font-face {
+	font-family: Barlow;
+	src: url('./Fonts/Barlow/Barlow-Regular.ttf');
+}
+
+body {
+	font-family: Barlow;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+.WE{
+
+	font-family: Fraunces;
+}
+
+
+.bg-img {
+	background-image: url("./images/desktop/image-header.jpg");
+	min-height: 750px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: center;
+}
+.arrow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	margin-top: 20px;
+	gap: 16px;
+}
+
+.green{
+	background-color: #6bd4bf;
+}
+.navi{
+	display: inline-block;
+	width: auto;
+}
+.contact-btn{
+	border: none;
+	background-color: white;
+	padding: 8px 15px;
+}
+
+
+
+
+.contact-btn{
+
+	border-radius: 25px;
+	border-color:white;
+    
+	
+}
+.img-1{
+	display: none;
+}
+
+/* .photos img {
+	max-width: 25%;
+}
+
+.green {
+	background-color: #6bd4bf;
+}
+
+.container {
+		background-color: #6bd4bf;
+		max-width: 100%;
+}
+
+.green h2 {
+	justify-content: center;
+	display: flex;
+	font-family: 20px "Fraunces", serif;
+	font-weight: bolder;
+	color: #25564b;
+	font-size: 2.1em;
+	justify-content: center;
+}
+
+
+.bar {
+	margin-top: 2rem;
+	display: flex;
+	gap: 1rem;
+	flex-direction: row;
+	padding: 0;
+	color: #25564b;
+	justify-content: center;
+}
+.contact {
+	margin-top: 2%;
+	display: flex;
+	gap: 3rem;
+	flex-direction: row;
+	padding: 1.5rem;
+	justify-content: center;
+} */
+
+@media (max-width:500px) {
+	.bg-img {
+		background-image: url("./images/mobile/image-header.jpg");
+		min-height: 750px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: center;
+	}
+
+	.img-1{
+		display:block;
+	}
+	.img-2{
+		display: none;
+	}
+
+}
